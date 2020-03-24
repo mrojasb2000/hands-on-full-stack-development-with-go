@@ -46,7 +46,7 @@ func main() {
 $ cd $GoPath/example
 $ go install
 
-
+This command will compile your Go program and then place the resulting binary in the bin folder of youe workspace.
 
 
 Chapter 3, h3. Go Concurrency
