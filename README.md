@@ -25,6 +25,29 @@ For you to write Go code on your computer, you need to set up a Go workspace. A 
 
   * The second environment variable is called GoPath. GoPath includes the path to your Go workspace folder. By default, if not set, GoPath is assumed to either to be as $HOME/go on Unix systems or %USERPROFILE%\go Windows.  
 
+5.- Create folder $GoPath/example
+  $ mkdir -p $GoPath/example
+
+6.- Create file main.go in $GoPath/example
+  $ touch $GoPath/example/main.go 
+
+7.- Edit Go file and add basic code Go.
+
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello World!")
+}
+
+8.- To compile a Go program, you will need to navigate to the folder where your main package lives and the type the following command:
+
+$ cd $GoPath/example
+$ go install
+
+
+
 
 Chapter 3, h3. Go Concurrency
 
