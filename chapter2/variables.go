@@ -13,6 +13,12 @@ func main() {
 	fmt.Println(s4, s5, s6)
 	var s44, s55, s66 string = "first-string", "second-string", "thrid-string"
 	fmt.Println(s44, s55, s66)
+	var (
+		name = "mystring"
+		number = 12
+		price = 14.53
+	)
+	fmt.Println(name, number, price)
 	
 	fmt.Println("Variables in go")
 }
