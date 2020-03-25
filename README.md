@@ -48,6 +48,12 @@ $ go install
 
 This command will compile your Go program and then place the resulting binary in the bin folder of youe workspace.
 
+Alternatively, you can run the following command:
+ $ cd $GoPath/example
+ $ go build
+
+ This command will compile and then deploy the resulting binary in the current folder.
+
 
 Chapter 3, h3. Go Concurrency
 
