@@ -10,4 +10,8 @@ func main() {
 	// de-referencing
 	y := *xptr
 	fmt.Println("Access to value from pointer:", y)
+
+	*xptr = 4
+	fmt.Println("Change the value that the pointer points to:", *xptr)
+
 }
